@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:linear-gradient(135deg,#4b6cb7,#182848);
+  color:#fff;
+  min-height:100vh;
+}
+
+/* Header */
+.header{
+  text-align:center;
+  padding:40px 20px;
+}
+
+.header h1{
+  font-size:32px;
+  margin-bottom:10px;
+}
+
+.header p{
+  opacity:.9;
+}
+
+/* Form Container */
+.form-container{
+  max-width:900px;
+  margin:20px auto 60px;
+  background:#ffffff10;
+  backdrop-filter:blur(10px);
+  padding:25px;
+  border-radius:18px;
+  box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+/* Section Boxes */
+.form-section{
+  margin-bottom:25px;
+  padding:15px;
+  border-left:4px solid #ffeb3b;
+  background:#ffffff08;
+  border-radius:12px;
+}
+
+.form-section h2{
+  margin-bottom:12px;
+}
+
+/* Input Fields */
+.input-group{
+  margin:10px 0 15px;
+}
+
+.input-group input{
+  width:100%;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+  outline:none;
+}
+
+/* Option Cards */
+.option-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:12px;
+}
+
+.option-card{
+  background:#ffffff15;
+  padding:12px;
+  border-radius:14px;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  transition:.3s;
+}
+
+.option-card:hover{
+  background:#ffffff25;
+  transform:translateY(-3px);
+}
+
+.option-card input{
+  transform:scale(1.2);
+}
+
+/* Submit */
+.submit-box{
+  text-align:center;
+  margin-top:25px;
+}
+
+.submit-box button{
+  padding:12px 30px;
+  font-size:18px;
+  font-weight:600;
+  border-radius:40px;
+  border:none;
+  cursor:pointer;
+  background:#ffeb3b;
+  color:#000;
+}
+
+.submit-box button:hover{
+  background:#fff;
+  transform:scale(1.05);
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  padding:20px;
+  opacity:.8;
+}
