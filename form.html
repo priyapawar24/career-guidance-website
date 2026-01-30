@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Interest Guidance Form</title>
+  <link rel="stylesheet" href="form.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+  <h1>Career Guidance – Interest Assessment</h1>
+  <p>Answer honestly. This form will help suggest the best suitable career paths for you.</p>
+</header>
+
+<section class="form-container">
+
+  <form id="careerForm">
+
+    <!-- SECTION 1 — BASIC DETAILS -->
+    <div class="form-section">
+      <h2>Step 1 — Basic Details</h2>
+
+      <div class="input-group">
+        <label>Your Name</label>
+        <input type="text" placeholder="Enter your name" required>
+      </div>
+
+      <div class="input-group">
+        <label>Current Education Level</label>
+
+        <div class="option-grid">
+          <label class="option-card">
+            <input type="radio" name="level" value="10th Passed">
+            <span>10th Passed</span>
+          </label>
+
+          <label class="option-card">
+            <input type="radio" name="level" value="12th Science">
+            <span>12th Science</span>
+          </label>
+
+          <label class="option-card">
+            <input type="radio" name="level" value="12th Commerce">
+            <span>12th Commerce</span>
+          </label>
+
+          <label class="option-card">
+            <input type="radio" name="level" value="12th Arts">
+            <span>12th Arts</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 2 — INTEREST AREA -->
+    <div class="form-section">
+      <h2>Step 2 — What Interests You The Most?</h2>
+
+      <div class="option-grid">
+
+        <label class="option-card">
+          <input type="radio" name="interest" value="Software & IT">
+          <span>Coding / Computers / Technology</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="interest" value="Engineering Core">
+          <span>Machines / Design / Construction</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="interest" value="Medical">
+          <span>Helping People / Health / Biology</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="interest" value="Research">
+          <span>Thinking / Analysis / Concepts</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="interest" value="Vocational">
+          <span>Hands-on Work / Practical Skills</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="interest" value="Government Jobs">
+          <span>Government Jobs & Stability</span>
+        </label>
+
+      </div>
+    </div>
+
+    <!-- SECTION 3 — SUBJECT COMFORT -->
+    <div class="form-section">
+      <h2>Step 3 — Which Subjects Do You Feel Comfortable With?</h2>
+
+      <div class="option-grid">
+
+        <label class="option-card">
+          <input type="checkbox" name="subject" value="Maths & Logic">
+          <span>Maths & Logical Problem Solving</span>
+        </label>
+
+        <label class="option-card">
+          <input type="checkbox" name="subject" value="Physics">
+          <span>Physics & Technical Concepts</span>
+        </label>
+
+        <label class="option-card">
+          <input type="checkbox" name="subject" value="Biology">
+          <span>Biology & Medical Topics</span>
+        </label>
+
+        <label class="option-card">
+          <input type="checkbox" name="subject" value="Computers">
+          <span>Computers & Programming</span>
+        </label>
+
+        <label class="option-card">
+          <input type="checkbox" name="subject" value="Theory">
+          <span>Theory Reading & Memorizing</span>
+        </label>
+
+        <label class="option-card">
+          <input type="checkbox" name="subject" value="Practical">
+          <span>Practical / Workshop Activities</span>
+        </label>
+
+      </div>
+    </div>
+
+    <!-- SECTION 4 — STUDY EFFORT -->
+    <div class="form-section">
+      <h2>Step 4 — How Much Are You Ready To Study?</h2>
+
+      <div class="option-grid">
+
+        <label class="option-card">
+          <input type="radio" name="effort" value="Short Courses">
+          <span>Short Courses / Quick Job</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="effort" value="Moderate Study">
+          <span>3–4 Years Degree</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="effort" value="Long Term Study">
+          <span>Long-Term Study (Medical / Research)</span>
+        </label>
+
+      </div>
+    </div>
+
+    <!-- SECTION 5 — FINANCIAL REALITY -->
+    <div class="form-section">
+      <h2>Step 5 — Financial Consideration</h2>
+
+      <div class="option-grid">
+
+        <label class="option-card">
+          <input type="radio" name="finance" value="Low Budget">
+          <span>Low Fees + Early Job Preferred</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="finance" value="Can Afford College">
+          <span>Can Manage College Fees</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="finance" value="Scholarship Expected">
+          <span>Will Apply for Scholarship / Govt Support</span>
+        </label>
+
+      </div>
+    </div>
+
+    <!-- SECTION 6 — CAREER GOAL -->
+    <div class="form-section">
+      <h2>Step 6 — What is Your Primary Career Goal?</h2>
+
+      <div class="option-grid">
+
+        <label class="option-card">
+          <input type="radio" name="goal" value="High Salary">
+          <span>High Salary Job</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="goal" value="Government Job">
+          <span>Government Job Security</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="goal" value="Self Employment">
+          <span>Self-Employment / Business</span>
+        </label>
+
+        <label class="option-card">
+          <input type="radio" name="goal" value="Social Service">
+          <span>Service to Society / Healthcare</span>
+        </label>
+
+      </div>
+    </div>
+
+    <!-- SUBMIT BUTTON -->
+    <div class="submit-box">
+      <button type="button" onclick="suggestCareer()">Get My Career Suggestion</button>
+    </div>
+
+  </form>
+</section>
+
+<footer>
+  © 2026 Career Navigator — Student Career Guidance Portal
+</footer>
+
+<script>
+document.getElementById("careerForm").addEventListener("submit", function(event){
+  event.preventDefault();
+  alert("Career suggestion logic will be added next — Great job completing the form!");
+});
+</script>
+<script>
+function suggestCareer() {
+
+  let it=0, eng=0, med=0, comm=0, arts=0, voc=0, govt=0, agri=0;
+
+  // --- Education ---
+  let edu = document.querySelector('input[name="education"]:checked');
+  if (!edu) return alert("Please select your education");
+  edu = edu.value;
+
+  if (edu==="10th") voc+=2;
+  if (edu==="12science"){ it+=2; eng+=2; med+=2; }
+  if (edu==="12commerce") comm+=3;
+  if (edu==="12arts") arts+=3;
+  if (edu==="diploma") eng+=3;
+
+  // --- Interest ---
+  let interest = document.querySelector('input[name="interest"]:checked');
+  if (!interest) return alert("Please select your interest");
+  interest = interest.value;
+
+  if (interest==="software") it+=4;
+  if (interest==="engineering") eng+=4;
+  if (interest==="medical") med+=4;
+  if (interest==="business") comm+=4;
+  if (interest==="government") govt+=4;
+  if (interest==="skills") voc+=4;
+  if (interest==="agriculture") agri+=4;
+
+  // --- Strength ---
+  let strength = document.querySelector('input[name="strength"]:checked');
+  if (!strength) return alert("Please select your strength");
+  strength = strength.value;
+
+  if (strength==="math") it+=2;
+  if (strength==="science") eng+=2;
+  if (strength==="biology") med+=3;
+  if (strength==="communication") arts+=2;
+  if (strength==="hands") voc+=3;
+
+  // --- Finance ---
+  let finance = document.querySelector('input[name="finance"]:checked');
+  if (!finance) return alert("Please select finance option");
+  finance = finance.value;
+
+  if (finance==="low") voc+=2;
+  if (finance==="mid") eng+=1;
+  if (finance==="high") med+=2;
+
+  // --- Find Best Score ---
+  const scores = {
+    "Software / IT Careers": it,
+    "Core Engineering Branches": eng,
+    "Medical & Healthcare": med,
+    "Commerce & Business": comm,
+    "Arts & Humanities": arts,
+    "Vocational / Skill Careers": voc,
+    "Government & Civil Services": govt,
+    "Agriculture & Rural Careers": agri
+  };
+
+  const result = Object.keys(scores).reduce((a,b)=>scores[a]>scores[b]?a:b);
+
+  document.getElementById("result").innerText =
+    "Recommended Career Path: " + result;
+}
+</script>
+</body>
+</html>
